@@ -36,7 +36,7 @@
         
         // Performing insert query execution
         // here our table name is collegen
-        $sql = "INSERT INTO college VALUES ('$first_name',
+        $sql = "INSERT INTO college4 VALUES ('$first_name',
             '$last_name','$gender','$address','$email')";
         
         if(mysqli_query($conn, $sql)){
