@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'webappqwert'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F14CC4FDFC9F471C9BDE23DA2A88679F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_17B6E9E8706D4ED7848DE2A3DEE1413B }}
           package: .
