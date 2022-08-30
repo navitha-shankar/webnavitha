@@ -19,7 +19,7 @@
         // username => serverf
         // password => test@123
         // database name => db_test
-        $conn = mysqli_connect("server-f.mysql.database.azure.com", "serverf@server-f", "Test@123", "db_testn");
+        $conn = mysqli_connect("server-f.mysql.database.azure.com", "serverf@server-f", "Test@123", "testn");
         
         // Check connection
         if($conn === false){
