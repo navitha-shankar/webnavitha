@@ -15,11 +15,11 @@
 
 
 
-       // servername => server2318
+       // servername => server-f.mysql.database.azure.com
         // username => capgdemo
-        // password => bangalore@!23
+        // password => test@123
         // database name => db_test
-        $conn = mysqli_connect("navitha1999.mysql.database.azure.com", "navitha@navitha1999", "Test@123", "db_test1");
+        $conn = mysqli_connect("server-f.mysql.database.azure.com", "serverf@server-f", "Test@123", "db_testnv");
         
         // Check connection
         if($conn === false){
@@ -35,7 +35,7 @@
         $email = $_REQUEST['email'];
         
         // Performing insert query execution
-        // here our table name is college
+        // here our table name is collegen
         $sql = "INSERT INTO college VALUES ('$first_name',
             '$last_name','$gender','$address','$email')";
         
